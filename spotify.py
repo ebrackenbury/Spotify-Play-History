@@ -2,9 +2,8 @@ import requests
 import datetime
 import json
 
-# TODO: Send to SQL Server, Back-fill History, Automate
+# TODO: Send to SQL Server, Back-fill History, Automate, Get Perm Spotify Token
 # temp_unix = 1634184000000
-# temp comment
 
 yesterday = datetime.datetime.today().replace(hour=0, minute=0, second=0, microsecond=0) - datetime.timedelta(
     days=1)
